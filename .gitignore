@@ -1,2 +1,16 @@
 #.devcontainer/
 #scripts/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env (from uv.lock)
+.venv/
+
+# Runtime data
+src/backend/src/data/*.csv
+
+# IDE
+.vscode/
+.idea/
