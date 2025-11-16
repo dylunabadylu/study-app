@@ -39,7 +39,7 @@ jobs:
         with:
           context: ./src/backend
           push: true
-          tags:
+          tags: |
             ${{ env.REGISTRY }}/${{ env.BACKEND_IMAGE_NAME }}:${{ steps.tag.outputs.TAG }}
             ${{ env.REGISTRY }}/${{ env.BACKEND_IMAGE_NAME }}:latest
     outputs:
@@ -74,9 +74,9 @@ jobs:
         with:
           context: ./src/frontend
           push: true
-          tags:
-            ${{ env.REGISTRY }}/${{ env.BACKEND_IMAGE_NAME }}:${{ steps.tag.outputs.TAG }}
-            ${{ env.REGISTRY }}/${{ env.BACKEND_IMAGE_NAME }}:latest
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.FRONTEND_IMAGE_NAME }}:${{ steps.tag.outputs.TAG }}
+            ${{ env.REGISTRY }}/${{ env.FRONTEND_IMAGE_NAME }}:latest
     outputs:
       tag: ${{ steps.tag.outputs.TAG }}
       app: frontend
