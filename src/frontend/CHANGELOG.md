@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/dylunabadylu/devops-app/compare/frontend-v0.1.0...frontend-v0.1.1) (2025-11-16)
+
+
+### Bug Fixes
+
+* **ci:** correct tags syntax and image name ([#16](https://github.com/dylunabadylu/devops-app/issues/16)) ([c43a887](https://github.com/dylunabadylu/devops-app/commit/c43a887dc745fc7372fab7a7c3e37430426e6ecc))
+
 ## 0.1.0 (2025-11-16)
 
 

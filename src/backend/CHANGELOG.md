@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/dylunabadylu/devops-app/compare/backend-v0.3.0...backend-v0.3.1) (2025-11-16)
+
+
+### Bug Fixes
+
+* **ci:** correct tags syntax and image name ([#16](https://github.com/dylunabadylu/devops-app/issues/16)) ([c43a887](https://github.com/dylunabadylu/devops-app/commit/c43a887dc745fc7372fab7a7c3e37430426e6ecc))
+
 ## [0.3.0](https://github.com/dylunabadylu/devops-app/compare/backend-v0.2.0...backend-v0.3.0) (2025-11-16)
 
 
