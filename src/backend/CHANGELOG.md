@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/dylunabadylu/devops-app/compare/backend-v0.1.0...backend-v0.2.0) (2025-11-16)
+
+
+### Features
+
+* **backend:** add container image build and push on release ([#11](https://github.com/dylunabadylu/devops-app/issues/11)) ([d3577aa](https://github.com/dylunabadylu/devops-app/commit/d3577aaefda7625ba837496d872fabda2943b5bb))
+
 ## 0.1.0 (2025-11-16)
 
 
