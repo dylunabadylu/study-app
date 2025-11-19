@@ -87,3 +87,9 @@ jobs:
           ignore-unfixed: true
           vuln-type: "os,library"
           severity: "CRITICAL,HIGH"
+  # Trigger the E2E workflow after the backend tests have passed
+  trigger_e2e:
+    name: Trigger E2E Tests
+    needs: test
+    if: success()
+    uses: ./.github/workflows/e2e_tests.yaml
