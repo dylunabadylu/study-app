@@ -34,4 +34,4 @@ USER app
 EXPOSE 22112
 
 # Run the application
-CMD ["/app/.venv.bin/study-tracker-api"]
+CMD ["/app/.venv/bin/study-tracker-api"]
