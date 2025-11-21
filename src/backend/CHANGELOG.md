@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/dylunabadylu/study-app/compare/backend-v0.3.2...backend-v0.3.3) (2025-11-21)
+
+
+### Bug Fixes
+
+* **backend:** trigger release ([#27](https://github.com/dylunabadylu/study-app/issues/27)) ([d20f4c2](https://github.com/dylunabadylu/study-app/commit/d20f4c25a7f61b8831510f2f5a0365f04fc08d36))
+
 ## [0.3.2](https://github.com/dylunabadylu/study-app/compare/backend-v0.3.1...backend-v0.3.2) (2025-11-19)
 
 
