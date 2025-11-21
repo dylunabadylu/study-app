@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/dylunabadylu/study-app/compare/frontend-v0.1.1...frontend-v0.1.2) (2025-11-21)
+
+
+### Bug Fixes
+
+* **frontend:** trigger release ([#30](https://github.com/dylunabadylu/study-app/issues/30)) ([76b73cf](https://github.com/dylunabadylu/study-app/commit/76b73cf80d261263d755d1963f2e5056465a0b70))
+
 ## [0.1.1](https://github.com/dylunabadylu/devops-app/compare/frontend-v0.1.0...frontend-v0.1.1) (2025-11-16)
 
 
